@@ -1,0 +1,23 @@
+WGBI Mobile and New Games analytics team works with game data on a daily basis and help game teams to analyse and operate their games. 
+For this test assignment you will be given examples of game data tables for one of our games - World of Worships Blitz. 
+No additional information will be given, you are free to make any assumption about the data to finish the test assignment.
+
+1. Please check provided source tables structure and propose ETL/ELT design for following metrics and aggregations:
+  a. General KPIs: 
+    - metrics: Active Users, New Users, Revenue, Spenders(Buyers), ARPU, ARPPU, 1 Day Retention rate, 3 Day Retention rate, 7 Day Retention rate, 7 day Conversion Rate
+    - period: Daily, Monthly, Weekly
+    Add any additional metrics which you think will be valuable for Game performance analysis.
+  b. Ships saturation:
+    - ships owned by a every user every day.
+    - daily ships popularity
+    (check comments for SHIP_TRANSACTION_LOG table for some additional details)
+  c. User transactions overview:
+    - amount of battles, logins, days since registration before first purchase 
+    - daily/weekly/monthly revenue per user
+  d. Battle analysis
+    - new users participation in battles on a 1/3/7/14 day since registration
+    - battle participation by active users
+
+2. What would you change in source tables design and which additional data would you collect from a game.     
+
+Please provide the results in any form with all scripts/code/assumptions attached.
